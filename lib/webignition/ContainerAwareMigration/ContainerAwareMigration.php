@@ -14,6 +14,10 @@ abstract class ContainerAwareMigration extends AbstractMigration implements Cont
      */
     protected $container;
     
+    /**
+     *
+     * @param ContainerInterface $container 
+     */
     public function setContainer(ContainerInterface $container = null) {
         $this->container = $container;
     }
