@@ -1,0 +1,22 @@
+{
+    "name": "webignition/container-aware-migration",
+    "type": "library",
+    "description": "A Doctrine migration that's Symfony-container aware",
+    "keywords": ["migrations", "database", "doctrine", "symfony"],
+    "homepage": "https://github.com/webignition/ContainerAwareMigration",
+    "license": "LGPL",
+    "authors": [
+        {"name": "Jon Cram", "email": "jon@webignition.net"}
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/symfony": ">=2.0",
+        "doctrine/migrations": "*",
+        "doctrine/doctrine-migrations-bundle": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "webignition\ContainerAwareMigration": "lib"
+        }
+    }
+}
