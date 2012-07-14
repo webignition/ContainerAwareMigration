@@ -1,2 +1,6 @@
 # IDE Meta
 /nbproject
+
+# Symfony
+/vendor
+/composer.lock
